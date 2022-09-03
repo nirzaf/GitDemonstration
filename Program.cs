@@ -12,5 +12,10 @@
             return name.ToUpper();
         }
 
+        public string ConvertIntToString(int input)
+        {
+            return input.ToString();
+        }
+
     }
 }
