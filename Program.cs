@@ -16,6 +16,11 @@
         {
             return input.ToString();
         }
+        
+        public void NewMethod()
+        {
+            Console.WriteLine("NewMethod Added");
+        }
 
     }
 }
