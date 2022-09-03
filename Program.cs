@@ -17,5 +17,10 @@
             return input.ToString();
         }
 
+        public void AddSecondNewMethod()
+        {
+            Console.WriteLine("AddSecondNewMethod");
+        }
+
     }
 }
