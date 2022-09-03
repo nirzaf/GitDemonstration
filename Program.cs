@@ -6,5 +6,11 @@
         {
             Console.WriteLine("Hello, World!");
         }
+
+        public string ConvertToUpperCase(string name)
+        {
+            return name.ToUpper();
+        }
+
     }
 }
