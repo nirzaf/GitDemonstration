@@ -22,10 +22,5 @@
             Console.WriteLine("NewMethod Added");
         }
 
-        public void AddSecondNewMethod()
-        {
-            Console.WriteLine("AddSecondNewMethod");
-        }
-
     }
 }
