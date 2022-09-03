@@ -12,5 +12,20 @@
             return name.ToUpper();
         }
 
+        public string ConvertIntToString(int input)
+        {
+            return input.ToString();
+        }
+        
+        public void NewMethod()
+        {
+            Console.WriteLine("NewMethod Added");
+        }
+
+        public void AddSecondNewMethod()
+        {
+            Console.WriteLine("AddSecondNewMethod");
+        }
+
     }
 }
