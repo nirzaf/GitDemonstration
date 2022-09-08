@@ -1,10 +1,13 @@
 ﻿namespace GitDemonstration
 {
-    internal class Program
+    
+     
+    internal class Program 
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           Program program = new Program();
+            program.calculate();
         }
 
         public string ConvertToUpperCase(string name)
@@ -27,5 +30,13 @@
             Console.WriteLine("AddSecondNewMethod");
         }
 
+        public void calculate()
+        {
+            Area area = new Area(); 
+            area.Calculation();
+        }
+        
+
     }
+    
 }
