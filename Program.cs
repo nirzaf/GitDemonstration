@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            CountStrings obj = new CountStrings();
+            obj.Word();
         }
 
         public string ConvertToUpperCase(string name)
