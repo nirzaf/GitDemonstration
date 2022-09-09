@@ -29,3 +29,10 @@
 
     }
 }
+class Dog {
+  string breed;
+  public void bark() {
+
+  }
+ 
+}
