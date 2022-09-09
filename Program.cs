@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            FindEvenOrOdd findEvenOrOdd = new FindEvenOrOdd();
+            findEvenOrOdd.Main();
         }
 
         public string ConvertToUpperCase(string name)
