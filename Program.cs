@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            Avg avg = new Avg();
+            avg.average();
         }
 
         public string ConvertToUpperCase(string name)
