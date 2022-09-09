@@ -5,6 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            multiply mult = new multiply();
+            mult.mul();
+
         }
 
         public string ConvertToUpperCase(string name)
