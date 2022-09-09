@@ -5,6 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+
+            Rectangle R = new Rectangle();
+            R.Area();
         }
 
         public string ConvertToUpperCase(string name)
