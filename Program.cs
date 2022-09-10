@@ -8,6 +8,10 @@ internal class Program
         {
             Console.WriteLine("Hello, World!");
 
+            CountStrings obj = new CountStrings();
+            obj.Word();
+      
+
             FindEvenOrOdd findEvenOrOdd = new FindEvenOrOdd();
             findEvenOrOdd.Main();
         }
