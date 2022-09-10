@@ -8,9 +8,11 @@ internal class Program
         {
             Console.WriteLine("Hello, World!");
 
+            multiply mult = new multiply();
+            mult.mul();
+
             CountStrings obj = new CountStrings();
             obj.Word();
-      
 
             FindEvenOrOdd findEvenOrOdd = new FindEvenOrOdd();
             findEvenOrOdd.Main();
