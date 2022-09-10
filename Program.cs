@@ -1,6 +1,8 @@
-﻿namespace GitDemonstration
+﻿namespace GitDemonstration;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
         static void Main(string[] args)
         {
@@ -9,25 +11,25 @@
             findBiggestNum.BiggestNum();
         }
 
-        public string ConvertToUpperCase(string name)
-        {
-            return name.ToUpper();
-        }
 
-        public string ConvertIntToString(int input)
-        {
-            return input.ToString();
-        }
-        
-        public void NewMethod()
-        {
-            Console.WriteLine("NewMethod Added");
-        }
-
-        public void AddSecondNewMethod()
-        {
-            Console.WriteLine("AddSecondNewMethod");
-        }
-
+    public string ConvertToUpperCase(string name)
+    {
+        return name.ToUpper();
     }
+
+    public string ConvertIntToString(int input)
+    {
+        return input.ToString();
+    }
+        
+    public void NewMethod()
+    {
+        Console.WriteLine("NewMethod Added");
+    }
+
+    public void AddSecondNewMethod()
+    {
+        Console.WriteLine("AddSecondNewMethod");
+    }
+
 }
