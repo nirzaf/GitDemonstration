@@ -7,6 +7,9 @@ internal class Program
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Hello, World!");
+            Program myProgram = new Program();
+            myProgram.revers_no();
 
            Program program = new Program();
             program.calculate();
@@ -39,6 +42,12 @@ internal class Program
     {
         return name.ToUpper();
     }
+
+        public void revers_no()
+        {
+            ReverseNo a1 = new ReverseNo();
+            a1.print_revers_no();
+        }
 
     public string ConvertIntToString(int input)
     {
