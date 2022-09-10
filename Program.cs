@@ -8,6 +8,9 @@ internal class Program
         {
             Console.WriteLine("Hello, World!");
 
+            Rectangle R = new Rectangle();
+            R.Area();
+
             Avg avg = new Avg();
             avg.average();
 
