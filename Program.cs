@@ -8,6 +8,9 @@ internal class Program
         {
             Console.WriteLine("Hello, World!");
 
+            Avg avg = new Avg();
+            avg.average();
+
             multiply mult = new multiply();
             mult.mul();
 
