@@ -1,31 +1,31 @@
-﻿namespace GitDemonstration
+﻿namespace GitDemonstration;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-
-        public string ConvertToUpperCase(string name)
-        {
-            return name.ToUpper();
-        }
-
-        public string ConvertIntToString(int input)
-        {
-            return input.ToString();
-        }
-        
-        public void NewMethod()
-        {
-            Console.WriteLine("NewMethod Added");
-        }
-
-        public void AddSecondNewMethod()
-        {
-            Console.WriteLine("AddSecondNewMethod");
-        }
-
+        Console.WriteLine("Hello, World!");
+        Console.ReadLine();
     }
+
+    public string ConvertToUpperCase(string name)
+    {
+        return name.ToUpper();
+    }
+
+    public string ConvertIntToString(int input)
+    {
+        return input.ToString();
+    }
+        
+    public void NewMethod()
+    {
+        Console.WriteLine("NewMethod Added");
+    }
+
+    public void AddSecondNewMethod()
+    {
+        Console.WriteLine("AddSecondNewMethod");
+    }
+
 }
