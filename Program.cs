@@ -32,4 +32,10 @@ internal class Program
         Console.WriteLine("AddSecondNewMethod");
     }
 
+class Dog {
+  string breed;
+  public void bark() {
+
+  }
+ 
 }
