@@ -10,7 +10,7 @@ internal class Program
             FindBiggestNum findBiggestNum = new FindBiggestNum();
             findBiggestNum.BiggestNum();
         }
-
+    }
 
     public string ConvertToUpperCase(string name)
     {
@@ -32,10 +32,15 @@ internal class Program
         Console.WriteLine("AddSecondNewMethod");
     }
 
-class Dog {
-  string breed;
-  public void bark() {
+}
 
-  }
- 
+
+class Dog
+{
+    string breed;
+
+    public void bark()
+    {
+
+    }
 }
