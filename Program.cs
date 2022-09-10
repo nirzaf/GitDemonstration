@@ -2,11 +2,14 @@
 
 internal class Program
 {
+    
     static void Main(string[] args)
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+           Program program = new Program();
+            program.calculate();
 
             Rectangle R = new Rectangle();
             R.Area();
@@ -25,6 +28,13 @@ internal class Program
         }
     }
 
+   
+         public void calculate()
+        {
+            Area area = new Area(); 
+            area.Calculation();
+        }
+    
     public string ConvertToUpperCase(string name)
     {
         return name.ToUpper();
