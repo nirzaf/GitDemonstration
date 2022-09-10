@@ -1,42 +1,69 @@
-﻿namespace GitDemonstration
+﻿namespace GitDemonstration;
+
+internal class Program
 {
     
-     
-    internal class Program 
+    static void Main(string[] args)
     {
         public static void Main(string[] args)
         {
+
            Program program = new Program();
             program.calculate();
-        }
 
-        public string ConvertToUpperCase(string name)
-        {
-            return name.ToUpper();
-        }
+            Rectangle R = new Rectangle();
+            R.Area();
 
-        public string ConvertIntToString(int input)
-        {
-            return input.ToString();
-        }
-        
-        public void NewMethod()
-        {
-            Console.WriteLine("NewMethod Added");
-        }
+            Avg avg = new Avg();
+            avg.average();
 
-        public void AddSecondNewMethod()
-        {
-            Console.WriteLine("AddSecondNewMethod");
-        }
+            multiply mult = new multiply();
+            mult.mul();
 
-        public void calculate()
+            CountStrings obj = new CountStrings();
+            obj.Word();
+
+            FindEvenOrOdd findEvenOrOdd = new FindEvenOrOdd();
+            findEvenOrOdd.Main();
+        }
+    }
+
+   
+         public void calculate()
         {
             Area area = new Area(); 
             area.Calculation();
         }
+    
+    public string ConvertToUpperCase(string name)
+    {
+        return name.ToUpper();
+    }
+
+    public string ConvertIntToString(int input)
+    {
+        return input.ToString();
+    }
         
+    public void NewMethod()
+    {
+        Console.WriteLine("NewMethod Added");
+    }
+
+    public void AddSecondNewMethod()
+    {
+        Console.WriteLine("AddSecondNewMethod");
+    }
+
+}
+
+
+class Dog
+{
+    string breed;
+
+    public void bark()
+    {
 
     }
-    
 }
