@@ -7,8 +7,9 @@ internal class Program
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            FindBiggestNum findBiggestNum = new FindBiggestNum();
-            findBiggestNum.BiggestNum();
+
+            FindEvenOrOdd findEvenOrOdd = new FindEvenOrOdd();
+            findEvenOrOdd.Main();
         }
     }
 
