@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            Class1 findremainder = new Class1();
+            findremainder.Remainder();
         }
 
         public string ConvertToUpperCase(string name)
